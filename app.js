@@ -58,7 +58,7 @@ passwordBtn.onclick = (event) => {
 
 //ONKEYUP EVENT LISTENER ON INPUT PASSWORD
 inputPassword.onkeyup = () => {
-  console.log(inputPassword.value === "");
+  //console.log(inputPassword.value === "");
   //IF PASSWORD IS EMPTY, THEN addAttributePassword()
   inputPassword.value === ""
     ? (addAttributePassword(), removeEyeOpenImg())
