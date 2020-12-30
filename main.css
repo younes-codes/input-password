@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 40px 0;
+}
+
+form .label-password {
+  color: #000000;
+}
+
+form .input-password {
+  margin: 0 20px;
+  padding: 5px 30px 5px 5px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+form .password-btn {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  outline: none;
+  padding: 5px;
+}
+
+form .password-btn img {
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=main.css.map */
