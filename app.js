@@ -58,9 +58,9 @@ passwordBtn.onclick = (event) => {
 
 //ONKEYUP EVENT LISTENER ON INPUT PASSWORD
 inputPassword.onkeyup = () => {
+  console.log(inputPassword.value === "");
   //IF PASSWORD IS EMPTY, THEN addAttributePassword()
-  inputPassword.value === "" ? addAttributePassword() : "";
-
-  //IF INPUT PASSWORD HAS TYPE PASSWORD THEN SET EYE CLOSED IMG
-  inputPassword.hasAttribute("type") ? removeEyeOpenImg() : "";
+  inputPassword.value === ""
+    ? (addAttributePassword(), removeEyeOpenImg())
+    : "";
 };
